@@ -1,0 +1,17 @@
+digraph D {
+    
+    //node [shape=plaintext]
+    
+    node1 [
+     label=<
+       <table border="0" cellborder="1" cellspacing="0">
+         <tr><td bgcolor="yellow">Foo</td></tr>
+         <tr><td bgcolor="lightblue"><font color="red">Bar</font></td></tr>
+         <tr><td bgcolor="red"><font color="orange">Baz</font></td></tr>
+       </table>>
+    ];
+    node2 [label= "Node 2" fontsize="20" shape=plaintext];
+    node2 [ label =<<font color ="red"> haha </font>>];
+    node1 -> node2 [label=2];
+    node2 -> {A,B,C} -> D ;
+}
