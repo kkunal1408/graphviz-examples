@@ -7,5 +7,5 @@ dot -Tpng -O test.dot
 # open the generated png
 xdg-open test.dot.png &
 # Try other options of graph type
-neato -Tpng -O test.dot
+neato -Tpng -O test.dot  
 circo -Tpng -O test.dot
